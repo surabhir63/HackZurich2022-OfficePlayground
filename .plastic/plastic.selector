@@ -1,0 +1,4 @@
+repository "Hack Zurich 2022 project@HackZurich22@cloud"
+  path "/"
+    smartbranch "/main"          
+     
