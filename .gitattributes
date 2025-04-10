@@ -1,0 +1,23 @@
+# Fix GitHub language statistics for Unity project
+
+# Force correct language for C# scripts
+*.cs linguist-language=C#
+
+# Mark auto-generated Unity files as 'generated' so they're not counted
+*.csproj linguist-generated
+*.unity linguist-generated
+*.prefab linguist-generated
+*.meta linguist-generated
+*.asset linguist-generated
+
+# Shader files
+*.shader linguist-language=ShaderLab
+*.cginc linguist-language=HLSL
+
+# Ignore DLLs and external binaries
+*.dll linguist-vendored
+*.exe linguist-vendored
+
+# Misc
+*.json linguist-generated
+*.xml linguist-generated
